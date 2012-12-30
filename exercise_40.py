@@ -17,7 +17,6 @@ while True:
     print "State? (ENTER to quit)",
     state = raw_input("> ")
     if not state: break
-    
     #this line is the most important ever! study!
     city_found = cities['_find'](cities, state)
     print city_found
